@@ -5,7 +5,9 @@
 	<name>[FSF] Advanced Bionics Expansion (No Royalty)</name>
 	<author>FrozenSnowFox | Dr_Zhivago</author>
 	<packageId>FrozenSnowFox.DrZhivago.AdvancedBionicsExpansionNoRoyalty</packageId>
-	<description>Adds in all the missing vanilla bionics.  Also adds a new series of Advanced Bionics and makes Archotech Bionics much more powerful. Edited Royalty dependency out by Dr_Zhivago.</description>
+	<description> &lt;size=24&gt;Version&lt;/size&gt; = 1.2.1.0
+  Adds in all the missing vanilla bionics.  Also adds a new series of Advanced Bionics and makes Archotech Bionics much more powerful. Edited Royalty dependency out by Dr_Zhivago.
+	</description>
 	<supportedVersions>
 		<li>1.1</li>
 		<li>1.2</li>
@@ -20,5 +22,5 @@
 	<incompatibleWith>
 		<li>FrozenSnowFox.VanillaBionicsExpansion</li>
 	</incompatibleWith>
-	
+
 </ModMetaData>
