@@ -5,7 +5,7 @@ It has the Royalty dependency removed.
 
 Up to date with the version on Steam from:
 ```
-Update: Nov 6 @ 3:38pm
+Update: Nov 6
 ```
 
 Repository is made available with permission from FrozenSnowFox, author of the mod.
