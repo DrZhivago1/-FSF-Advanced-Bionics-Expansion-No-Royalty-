@@ -146,7 +146,7 @@
 		<spawnThingOnRemoved>FSFProstheticFoot</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.80</partEfficiency>
+			<partEfficiency>0.95</partEfficiency>
 		</addedPartProps>
   </HediffDef>
 	
