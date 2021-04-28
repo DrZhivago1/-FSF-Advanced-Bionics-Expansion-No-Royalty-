@@ -5,7 +5,9 @@ It has the Royalty dependency removed.
 
 Up to date with the version on Steam from:
 ```
-Update: Nov 6
+Update on 11/7/2020 9:38:56 AM.
+
+- Increased Prosthetic Foot efficiency from 80% to 95%.
 ```
 
 Repository is made available with permission from FrozenSnowFox, author of the mod.
