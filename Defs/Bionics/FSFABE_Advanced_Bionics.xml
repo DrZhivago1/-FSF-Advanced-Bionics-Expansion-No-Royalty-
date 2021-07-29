@@ -66,7 +66,10 @@
 		<defName>InstallFSFAdvBionicEar</defName>
 		<label>install advanced bionic ear</label>
 		<description>Install an advanced bionic ear.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicEar</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicEar</ThingDef>
+			<HediffDef>FSFAdvBionicEar</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic ear.</jobString>
 		<ingredients>
 			<li>
@@ -126,7 +129,10 @@
 		<defName>InstallFSFAdvBionicEye</defName>
 		<label>install advanced bionic eye</label>
 		<description>Install an advanced bionic eye.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicEye</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicEye</ThingDef>
+			<HediffDef>FSFAdvBionicEye</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic eye.</jobString>
 		<ingredients>
 			<li>
@@ -202,7 +208,10 @@
 		<defName>InstallFSFAdvBionicJaw</defName>
 		<label>install advanced bionic jaw</label>
 		<description>Install an advanced bionic jaw.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicJaw</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicJaw</ThingDef>
+			<HediffDef>FSFAdvBionicJaw</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic jaw.</jobString>
 		<ingredients>
 			<li>
@@ -278,7 +287,10 @@
 		<defName>InstallFSFAdvBionicArm</defName>
 		<label>install advanced bionic arm</label>
 		<description>Install an advanced bionic arm.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicArm</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicArm</ThingDef>
+			<HediffDef>FSFAdvBionicArm</HediffDef>
+		</descriptionHyperlinks>
     	<jobString>Installing advanced bionic arm.</jobString>
 		<ingredients>
 			<li>
@@ -338,7 +350,10 @@
 		<defName>InstallFSFAdvBionicSpine</defName>
 		<label>install advanced bionic spine</label>
 		<description>Install an advanced bionic spine.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicSpine</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicSpine</ThingDef>
+			<HediffDef>FSFAdvBionicSpine</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic spine.</jobString>
 		<ingredients>
 			<li>
@@ -398,7 +413,10 @@
 		<defName>InstallFSFAdvBionicHeart</defName>
 		<label>install advanced bionic heart</label>
 		<description>Install an advanced bionic heart.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicHeart</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicHeart</ThingDef>
+			<HediffDef>FSFAdvBionicHeart</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic heart.</jobString>
 		<ingredients>
 			<li>
@@ -458,7 +476,10 @@
 		<defName>InstallFSFAdvBionicLung</defName>
 		<label>install advanced bionic lung</label>
 		<description>Install an advanced bionic lung.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicLung</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicLung</ThingDef>
+			<HediffDef>FSFAdvBionicLung</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic lung.</jobString>
 		<ingredients>
 			<li>
@@ -518,7 +539,10 @@
 		<defName>InstallFSFAdvBionicKidney</defName>
 		<label>install advanced bionic kidney</label>
 		<description>Install an advanced bionic kidney.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicKidney</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicKidney</ThingDef>
+			<HediffDef>FSFAdvBionicKidney</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic kidney.</jobString>
 		<ingredients>
 			<li>
@@ -578,7 +602,10 @@
 		<defName>InstallFSFAdvBionicLiver</defName>
 		<label>install advanced bionic liver</label>
 		<description>Install an advanced bionic liver.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicLiver</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicLiver</ThingDef>
+			<HediffDef>FSFAdvBionicLiver</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic liver.</jobString>
 		<ingredients>
 			<li>
@@ -638,7 +665,10 @@
 		<defName>InstallFSFAdvBionicStomach</defName>
 		<label>install advanced bionic stomach</label>
 		<description>Install an advanced bionic stomach.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicStomach</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicStomach</ThingDef>
+			<HediffDef>FSFAdvBionicStomach</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic stomach.</jobString>
 		<ingredients>
 			<li>
@@ -698,7 +728,10 @@
 		<defName>InstallFSFAdvBionicLeg</defName>
 		<label>install advanced bionic leg</label>
 		<description>Install an advanced bionic leg.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicLeg</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicLeg</ThingDef>
+			<HediffDef>FSFAdvBionicLeg</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing advanced bionic leg.</jobString>
 		<ingredients>
 			<li>
@@ -740,7 +773,9 @@
 	<ThingDef ParentName="FSFBodyPartAdvBionicBase">
 		<defName>FSFAdvBionicBrain</defName>
 		<label>positronic brain</label>
-		<description>An extremely sophisticated computation device designed to house a human or artificial intelligence.  It’s primarily used to transfer a person’s consciousness to fight against the slow endless march of time and its effects on organic body parts.</description>
+		<description>An extremely sophisticated computation device designed to house a human or artificial intelligence.  It’s primarily used to transfer a person’s consciousness to fight against the slow endless march of time and its effects on organic body parts.
+		
+		Warning: Due to the nature of its design it is incompatible with brain implants.</description>
 		<descriptionHyperlinks><RecipeDef>InstallFSFAdvBionicBrain</RecipeDef></descriptionHyperlinks>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -753,7 +788,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>BrainWiring</researchPrerequisite>
+			<researchPrerequisite>FSFAdvancedBionics</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 	
@@ -761,7 +796,10 @@
 		<defName>InstallFSFAdvBionicBrain</defName>
 		<label>install positronic brain</label>
 		<description>Install an positronic brain.</description>
-    	<descriptionHyperlinks><ThingDef>FSFAdvBionicBrain</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFAdvBionicBrain</ThingDef>
+			<HediffDef>FSFAdvBionicBrain</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing positronic brain.</jobString>
 		<ingredients>
 			<li>

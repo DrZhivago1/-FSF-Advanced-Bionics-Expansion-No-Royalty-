@@ -18,6 +18,7 @@
     <label>peg leg</label>
     <labelNoun>a peg leg</labelNoun>
     <description>An installed peg leg.</description>
+    <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.60</partEfficiency>
@@ -32,6 +33,7 @@
     <label>wooden hand</label>
     <labelNoun>a wooden hand</labelNoun>
     <description>An installed wooden hand.</description>
+    <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.60</partEfficiency>
@@ -46,6 +48,7 @@
     <label>wooden foot</label>
     <labelNoun>a wooden foot</labelNoun>
     <description>An installed wooden foot.</description>
+    <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.80</partEfficiency>
@@ -61,6 +64,7 @@
     <label>denture</label>
     <labelNoun>a denture</labelNoun>
     <description>An installed denture.</description>
+    <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.80</partEfficiency>

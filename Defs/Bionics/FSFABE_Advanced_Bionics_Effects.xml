@@ -10,8 +10,9 @@
 		<isBad>true</isBad>
 		<defaultLabelColor>(253,208,35)</defaultLabelColor>
 		<comps>
-			<li Class="HediffCompProperties_Immunizable">
-				<severityPerDayNotImmune>-2</severityPerDayNotImmune>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-8</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
 		<stages>

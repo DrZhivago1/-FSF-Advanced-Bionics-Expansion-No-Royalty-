@@ -29,8 +29,15 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/HediffDef[defName = "PsychicAmplifier"]</xpath>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "PsychicAmplifier"]/defaultLabelColor</xpath>
 				<value>
 					<defaultLabelColor>(82,190,128)</defaultLabelColor>
 				</value>

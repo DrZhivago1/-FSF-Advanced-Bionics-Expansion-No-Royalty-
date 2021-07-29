@@ -11,6 +11,8 @@
     <description>An installed archotech eye.</description>
     <descriptionHyperlinks><ThingDef>ArchotechEye</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>ArchotechEye</spawnThingOnRemoved>
+    <woundAnchorRange>0</woundAnchorRange>
+    <displayWound>true</displayWound>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>2.0</partEfficiency>
@@ -21,10 +23,10 @@
   <ThingDef ParentName="BodyPartArchotechBase">
     <defName>ArchotechEye</defName>
     <label>archotech eye</label>
-    <description>An artifical eye built by an archotech. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Externally, it looks like a natural human eye, except it can change color at will. Its internal workings are a mystery to all human minds.</description>
+    <description>An artifical eye built by an archotech. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Its internal workings are a mystery to human minds.</description>
     <descriptionHyperlinks><RecipeDef>InstallArchotechEye</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>3380</MarketValue>
+      <MarketValue>2800</MarketValue>
       <Mass>0.3</Mass>
     </statBases>
     <thingSetMakerTags>
@@ -36,7 +38,10 @@
     <defName>InstallArchotechEye</defName>
     <label>install archotech eye</label>
     <description>Install an archotech eye.</description>
-    <descriptionHyperlinks><ThingDef>ArchotechEye</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechEye</ThingDef>
+      <HediffDef>ArchotechEye</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing archotech eye.</jobString>
     <ingredients>
       <li>
@@ -97,7 +102,7 @@
     <description>An artifical arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
     <descriptionHyperlinks><RecipeDef>InstallArchotechArm</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>3470</MarketValue>
+      <MarketValue>2800</MarketValue>
       <Mass>4</Mass>
     </statBases>
     <thingSetMakerTags>
@@ -109,7 +114,10 @@
     <defName>InstallArchotechArm</defName>
     <label>install archotech arm</label>
     <description>Install an archotech arm.</description>
-    <descriptionHyperlinks><ThingDef>ArchotechArm</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechArm</ThingDef>
+      <HediffDef>ArchotechArm</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing archotech arm.</jobString>
     <ingredients>
       <li>
@@ -154,7 +162,7 @@
     <description>An artifical leg built by an archotech. It looks and feels like natural flesh, but a pair of these can move the user as fast as a decent car, and it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
     <descriptionHyperlinks><RecipeDef>InstallArchotechLeg</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>3470</MarketValue>
+      <MarketValue>2800</MarketValue>
       <Mass>7</Mass>
     </statBases>
     <thingSetMakerTags>
@@ -166,7 +174,10 @@
     <defName>InstallArchotechLeg</defName>
     <label>install archotech leg</label>
     <description>Install an archotech leg.</description>
-    <descriptionHyperlinks><ThingDef>ArchotechLeg</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechLeg</ThingDef>
+      <HediffDef>ArchotechLeg</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing archotech leg.</jobString>
     <ingredients>
       <li>

@@ -36,7 +36,10 @@
 		<defName>InstallFSFArchotechEar</defName>
 		<label>install archotech ear</label>
 		<description>Install an archotech ear.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechEar</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechEar</ThingDef>
+			<HediffDef>FSFArchotechEar</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech ear.</jobString>
 		<ingredients>
 			<li>
@@ -109,7 +112,10 @@
 		<defName>InstallFSFArchotechJaw</defName>
 		<label>install archotech jaw</label>
 		<description>Install an archotech jaw.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechJaw</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechJaw</ThingDef>
+			<HediffDef>FSFArchotechJaw</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech jaw.</jobString>
 		<ingredients>
 			<li>
@@ -166,7 +172,10 @@
 		<defName>InstallFSFArchotechSpine</defName>
 		<label>install archotech spine</label>
 		<description>Install an archotech spine.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechSpine</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechSpine</ThingDef>
+			<HediffDef>FSFArchotechSpine</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech spine.</jobString>
 		<ingredients>
 			<li>
@@ -223,7 +232,10 @@
 		<defName>InstallFSFArchotechHeart</defName>
 		<label>install archotech heart</label>
 		<description>Install an archotech heart.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechHeart</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechHeart</ThingDef>
+			<HediffDef>FSFArchotechHeart</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech heart.</jobString>
 		<ingredients>
 			<li>
@@ -280,7 +292,10 @@
 		<defName>InstallFSFArchotechLung</defName>
 		<label>install archotech lung</label>
 		<description>Install an archotech lung.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechLung</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechLung</ThingDef>
+			<HediffDef>FSFArchotechLung</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech lung.</jobString>
 		<ingredients>
 			<li>
@@ -337,7 +352,10 @@
 		<defName>InstallFSFArchotechKidney</defName>
 		<label>install archotech kidney</label>
 		<description>Install an archotech kidney.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechKidney</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechKidney</ThingDef>
+			<HediffDef>FSFArchotechKidney</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech kidney.</jobString>
 		<ingredients>
 			<li>
@@ -394,7 +412,10 @@
 		<defName>InstallFSFArchotechLiver</defName>
 		<label>install archotech liver</label>
 		<description>Install an archotech liver.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechLiver</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechLiver</ThingDef>
+			<HediffDef>FSFArchotechLiver</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech liver.</jobString>
 		<ingredients>
 			<li>
@@ -451,7 +472,10 @@
 		<defName>InstallFSFArchotechStomach</defName>
 		<label>install archotech stomach</label>
 		<description>Install an archotech stomach.</description>
-		<descriptionHyperlinks><ThingDef>FSFArchotechStomach</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArchotechStomach</ThingDef>
+			<HediffDef>FSFArchotechStomach</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing archotech stomach.</jobString>
 		<ingredients>
 			<li>

@@ -53,7 +53,10 @@
 		<defName>InstallFSFBionicJaw</defName>
 		<label>install bionic jaw</label>
 		<description>Install a bionic jaw.</description>
-		<descriptionHyperlinks><ThingDef>FSFBionicJaw</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicJaw</ThingDef>
+			<HediffDef>FSFBionicJaw</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic jaw.</jobString>
 		<ingredients>
 			<li>
@@ -111,7 +114,10 @@
 		<defName>InstallFSFBionicLung</defName>
 		<label>install bionic lung</label>
 		<description>Install a bionic lung.</description>
-		<descriptionHyperlinks><ThingDef>FSFBionicLung</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicLung</ThingDef>
+			<HediffDef>FSFBionicLung</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic lung.</jobString>
 		<ingredients>
 			<li>
@@ -169,7 +175,10 @@
 		<defName>InstallFSFBionicKidney</defName>
 		<label>install bionic kidney</label>
 		<description>Install a bionic kidney.</description>
-		<descriptionHyperlinks><ThingDef>FSFBionicKidney</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicKidney</ThingDef>
+			<HediffDef>FSFBionicKidney</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic kidney.</jobString>
 		<ingredients>
 			<li>
@@ -227,7 +236,10 @@
 		<defName>InstallFSFBionicLiver</defName>
 		<label>install bionic liver</label>
 		<description>Install a bionic liver.</description>
-		<descriptionHyperlinks><ThingDef>FSFBionicLiver</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicLiver</ThingDef>
+			<HediffDef>FSFBionicLiver</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic liver.</jobString>
 		<ingredients>
 			<li>

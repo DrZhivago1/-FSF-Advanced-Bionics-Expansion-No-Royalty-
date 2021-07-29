@@ -27,7 +27,7 @@
 		<researchViewX>16.00</researchViewX>
 		<researchViewY>5.40</researchViewY>
 	</ResearchProjectDef>
-
+	
 	<!-- Advanced Specialized Limbs Research -->
 
 	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierB">
@@ -40,11 +40,11 @@
 		<researchViewX>17.00</researchViewX>
 		<researchViewY>5.40</researchViewY>
 	</ResearchProjectDef>
-
+	
 	<!-- Advanced Body Frames Research -->
 
 	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierB">
-		<defName>FSFAdvancedBodyFramesResearch</defName>
+		<defName>FSFResearchAdvancedBodyFrames</defName>
 		<label>Advanced Body Frames</label>
 		<description>Craft high-tech frames that replace a persons skeletal structure and some of the surrounding tissue.</description>
 		<prerequisites>
@@ -53,7 +53,7 @@
 		<researchViewX>18.00</researchViewX>
 		<researchViewY>5.40</researchViewY>
 	</ResearchProjectDef>
-
+	
 	<!-- Advanced Environmental Implants Research -->
 
 	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierB">
@@ -66,7 +66,7 @@
 		<researchViewX>17.00</researchViewX>
 		<researchViewY>6.25</researchViewY>
 	</ResearchProjectDef>
-
+	
 	<!-- Advanced Combat Implants Research -->
 
 	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierB">
@@ -78,50 +78,6 @@
 		</prerequisites>
 		<researchViewX>18.00</researchViewX>
 		<researchViewY>6.25</researchViewY>
-	</ResearchProjectDef>
-
-	<!-- New Shit for dependencies -->
-
-	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierA">
-		<defName>BrainWiring</defName>
-		<label>brain wiring</label>
-		<description>Craft brain implants that induce, deduce, produce or prevent blunt sensations like joy or pain.</description>
-		<prerequisites>
-			<li>MicroelectronicsBasics</li>
-		</prerequisites>
-		<hiddenPrerequisites>
-			<li>Prosthetics</li>
-		</hiddenPrerequisites>
-		<researchViewX>12.00</researchViewX>
-		<researchViewY>4.30</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierB">
-		<defName>NeuralComputation</defName>
-		<label>neural computation</label>
-		<description>Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface.</description>
-		<prerequisites>
-			<li>Fabrication</li>
-		</prerequisites>
-		<hiddenPrerequisites>
-			<li>Prosthetics</li>
-		</hiddenPrerequisites>
-		<researchViewX>16.00</researchViewX>
-		<researchViewY>4.80</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="BaseBodyPartNotEmpire_TierA">
-		<defName>SpecializedLimbs</defName>
-		<label>specialized limbs</label>
-		<description>Craft specialized bionic limbs built for specific purposes - both combat and labor.</description>
-		<prerequisites>
-			<li>MicroelectronicsBasics</li>
-		</prerequisites>
-		<hiddenPrerequisites>
-			<li>Prosthetics</li>
-		</hiddenPrerequisites>
-		<researchViewX>13.00</researchViewX>
-		<researchViewY>4.30</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

@@ -37,7 +37,10 @@
 		<defName>InstallFSFArtificialNose</defName>
 		<label>install artificial nose</label>
 		<description>Install a artificial nose.</description>
-		<descriptionHyperlinks><ThingDef>FSFArtificialNose</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArtificialNose</ThingDef>
+			<HediffDef>FSFArtificialNose</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing artificial nose.</jobString>
 		<ingredients>
 			<li>

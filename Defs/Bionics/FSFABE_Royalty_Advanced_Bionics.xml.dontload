@@ -42,7 +42,10 @@
     <defName>InstallGastroAnalyzer</defName>
     <label>install gastro-analyzer</label>
     <description>Install a gastro-analyzer.</description>
-    <descriptionHyperlinks><ThingDef>GastroAnalyzer</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>GastroAnalyzer</ThingDef>
+      <HediffDef>GastroAnalyzer</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing gastro-analyzer.</jobString>
     <ingredients>
       <li>
@@ -91,7 +94,7 @@
   <ThingDef ParentName="BodyPartBionicImperialBase">
     <defName>Immunoenhancer</defName>
     <label>immunoenhancer</label>
-    <description>An analysis computer inspects the bloodstream, classifies pathogens, and rapidly prompts the body’s natural immune system to respond to them faster than it could alone. This speeds immunity gain significantly.</description>
+    <description>An analysis computer inspects the bloodstream, classifies pathogens, and rapidly prompts the body's natural immune system to respond to them faster than it could alone. This speeds immunity gain significantly.</description>
     <descriptionHyperlinks><RecipeDef>InstallImmunoenhancer</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
@@ -107,7 +110,10 @@
     <defName>InstallImmunoenhancer</defName>
     <label>install immunoenhancer</label>
     <description>Install an immunoenhancer.</description>
-    <descriptionHyperlinks><ThingDef>Immunoenhancer</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>Immunoenhancer</ThingDef>
+      <HediffDef>Immunoenhancer</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing immunoenhancer.</jobString>
     <ingredients>
       <li>

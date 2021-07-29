@@ -55,7 +55,10 @@
 		<defName>InstallFSFImplantBrainMeleeCombat</defName>
 		<label>install CQC assistant</label>
 		<description>Install a CQC assistant.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantBrainMeleeCombat</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantBrainMeleeCombat</ThingDef>
+			<HediffDef>FSFImplantBrainMeleeCombat</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing CQC assistant.</jobString>
 		<ingredients>
 			<li>
@@ -137,7 +140,10 @@
 		<defName>InstallFSFImplantBrainRangedCombat</defName>
 		<label>install targeting assistant</label>
 		<description>Install a targeting assistant.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantBrainRangedCombat</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantBrainRangedCombat</ThingDef>
+			<HediffDef>FSFImplantBrainRangedCombat</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing targeting assistant.</jobString>
 		<ingredients>
 			<li>
@@ -181,6 +187,8 @@
 		<stages>
 			<li>
 				<statOffsets>
+					<AnimalGatherSpeed>+0.2</AnimalGatherSpeed>
+					<AnimalGatherYield>+0.2</AnimalGatherYield>
 					<TameAnimalChance>+0.1</TameAnimalChance>
 					<TrainAnimalChance>+0.1</TrainAnimalChance>
 				</statOffsets>
@@ -211,7 +219,7 @@
 			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>NeuralComputation</researchPrerequisite>
+			<researchPrerequisite>FSFAdvancedBionics</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -219,7 +227,10 @@
 		<defName>InstallFSFImplantBrainAnimals</defName>
 		<label>install ethology assistant</label>
 		<description>Install a ethology assistant.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantBrainAnimals</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantBrainAnimals</ThingDef>
+			<HediffDef>FSFImplantBrainAnimals</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing ethology assistant.</jobString>
 		<ingredients>
 			<li>
@@ -295,7 +306,7 @@
 			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>NeuralComputation</researchPrerequisite>
+			<researchPrerequisite>FSFAdvancedBionics</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -303,7 +314,10 @@
 		<defName>InstallFSFImplantBrainMedical</defName>
 		<label>install medical assistant</label>
 		<description>Install a medical assistant.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantBrainMedical</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantBrainMedical</ThingDef>
+			<HediffDef>FSFImplantBrainMedical</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing medical assistant.</jobString>
 		<ingredients>
 			<li>
@@ -348,6 +362,7 @@
 			<li>
 				<statOffsets>
 					<ForagedNutritionPerDay>+3.2</ForagedNutritionPerDay>
+					<PlantHarvestYield>+0.2</PlantHarvestYield>
 					<PlantWorkSpeed>+0.2</PlantWorkSpeed>
 				</statOffsets>
 			</li>
@@ -377,7 +392,7 @@
 			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>NeuralComputation</researchPrerequisite>
+			<researchPrerequisite>FSFAdvancedBionics</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -385,7 +400,10 @@
 		<defName>InstallFSFImplantBrainPlants</defName>
 		<label>install agricultural assistant</label>
 		<description>Install a agricultural assistant.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantBrainPlants</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantBrainPlants</ThingDef>
+			<HediffDef>FSFImplantBrainPlants</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing agricultural assistant.</jobString>
 		<ingredients>
 			<li>
@@ -464,7 +482,7 @@
 			<Mass>25</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>FSFAdvancedBodyFramesResearch</researchPrerequisite>
+			<researchPrerequisite>FSFResearchAdvancedBodyFrames</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -472,7 +490,10 @@
 		<defName>InstallFSFImplantTorsoWorker</defName>
 		<label>install worker frame</label>
 		<description>Install a worker frame.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantTorsoWorker</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantTorsoWorker</ThingDef>
+			<HediffDef>FSFImplantTorsoWorker</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing worker frame.</jobString>
 		<ingredients>
 			<li>
@@ -547,7 +568,7 @@
 			<Mass>25</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>FSFAdvancedBodyFramesResearch</researchPrerequisite>
+			<researchPrerequisite>FSFResearchAdvancedBodyFrames</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -555,7 +576,10 @@
 		<defName>InstallFSFImplantTorsoSpeed</defName>
 		<label>install sprinter frame</label>
 		<description>Install a sprinter frame.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantTorsoSpeed</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantTorsoSpeed</ThingDef>
+			<HediffDef>FSFImplantTorsoSpeed</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing sprinter frame.</jobString>
 		<ingredients>
 			<li>
@@ -590,7 +614,7 @@
 		<removesHediff>FSFImplantTorsoSpeed</removesHediff>
 	</RecipeDef>
 	
-	<!-- Implant Torso Psychic 
+	<!-- Implant Torso Psychic -->
 
 	<HediffDef ParentName="FSFImplantHediffAdvBase">
 		<defName>FSFImplantTorsoPsychic</defName>
@@ -603,7 +627,6 @@
 			<li>
 				<statOffsets>
 					<PsychicSensitivity>0.50</PsychicSensitivity>
-					<PsychicEntropyRecoveryRate>0.083</PsychicEntropyRecoveryRate>
 				</statOffsets>
 			</li>
 		</stages>
@@ -625,7 +648,7 @@
 			<Mass>25</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>FSFAdvancedBodyFramesResearch</researchPrerequisite>
+			<researchPrerequisite>FSFResearchAdvancedBodyFrames</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -633,7 +656,10 @@
 		<defName>InstallFSFImplantTorsoPsychic</defName>
 		<label>install psychic frame</label>
 		<description>Install a psychic frame.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantTorsoPsychic</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantTorsoPsychic</ThingDef>
+			<HediffDef>FSFImplantTorsoPsychic</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing psychic frame.</jobString>
 		<ingredients>
 			<li>
@@ -666,7 +692,7 @@
 		<descriptionHyperlinks><ThingDef>FSFImplantTorsoPsychic</ThingDef></descriptionHyperlinks>
 		<jobString>Removing psychic frame.</jobString>
 		<removesHediff>FSFImplantTorsoPsychic</removesHediff>
-	</RecipeDef>-->
+	</RecipeDef>
 	
 	
 	
@@ -711,7 +737,10 @@
 		<defName>InstallFSFImplantTorsoClimateControl</defName>
 		<label>install climate control</label>
 		<description>Install a climate control.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantTorsoClimateControl</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantTorsoClimateControl</ThingDef>
+			<HediffDef>FSFImplantTorsoClimateControl</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing climate control.</jobString>
 		<ingredients>
 			<li>
@@ -780,7 +809,10 @@
 		<defName>InstallFSFImplantTorsoRespirator</defName>
 		<label>install internal respirator</label>
 		<description>Install a internal respirator.</description>
-		<descriptionHyperlinks><ThingDef>FSFImplantTorsoRespirator</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFImplantTorsoRespirator</ThingDef>
+			<HediffDef>FSFImplantTorsoRespirator</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing internal respirator.</jobString>
 		<ingredients>
 			<li>

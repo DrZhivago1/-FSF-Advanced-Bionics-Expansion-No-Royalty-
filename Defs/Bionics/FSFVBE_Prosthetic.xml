@@ -11,6 +11,8 @@
 		<description>An installed prosthetic eye.</description>
 		<descriptionHyperlinks><ThingDef>FSFProstheticEye</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>FSFProstheticEye</spawnThingOnRemoved>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>0.80</partEfficiency>
@@ -38,9 +40,11 @@
 		<defName>InstallFSFProstheticEye</defName>
 		<label>install prosthetic eye</label>
 		<description>Install a prosthetic eye.</description>
-		<descriptionHyperlinks><ThingDef>FSFProstheticEye</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFProstheticEye</ThingDef>
+			<HediffDef>FSFProstheticEye</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic eye.</jobString>
-		<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
 		<ingredients>
 			<li>
 				<filter>
@@ -112,7 +116,10 @@
 		<defName>InstallFSFProstheticHand</defName>
 		<label>install prosthetic hand</label>
 		<description>Install a prosthetic hand.</description>
-		<descriptionHyperlinks><ThingDef>FSFProstheticHand</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFProstheticHand</ThingDef>
+			<HediffDef>FSFProstheticHand</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic hand.</jobString>
 		<ingredients>
 			<li>
@@ -171,7 +178,10 @@
 		<defName>InstallFSFProstheticFoot</defName>
 		<label>install prosthetic foot</label>
 		<description>Install a prosthetic foot.</description>
-		<descriptionHyperlinks><ThingDef>FSFProstheticFoot</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFProstheticFoot</ThingDef>
+			<HediffDef>FSFProstheticFoot</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic foot.</jobString>
 		<ingredients>
 			<li>
@@ -230,7 +240,10 @@
 		<defName>InstallFSFProstheticSpine</defName>
 		<label>install prosthetic spine</label>
 		<description>Install a prosthetic spine.</description>
-		<descriptionHyperlinks><ThingDef>FSFProstheticSpine</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFProstheticSpine</ThingDef>
+			<HediffDef>FSFProstheticSpine</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic spine.</jobString>
 		<ingredients>
 			<li>
@@ -289,7 +302,10 @@
 		<defName>InstallFSFSimpleProstheticLung</defName>
 		<label>install prosthetic lung</label>
 		<description>Install a prosthetic lung.</description>
-		<descriptionHyperlinks><ThingDef>FSFSimpleProstheticLung</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFSimpleProstheticLung</ThingDef>
+			<HediffDef>FSFSimpleProstheticLung</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic lung.</jobString>
 		<ingredients>
 			<li>
@@ -348,7 +364,10 @@
 		<defName>InstallFSFSimpleProstheticKidney</defName>
 		<label>install prosthetic kidney</label>
 		<description>Install a prosthetic kidney.</description>
-		<descriptionHyperlinks><ThingDef>FSFSimpleProstheticKidney</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFSimpleProstheticKidney</ThingDef>
+			<HediffDef>FSFSimpleProstheticKidney</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic kidney.</jobString>
 		<ingredients>
 			<li>
@@ -407,7 +426,10 @@
 		<defName>InstallFSFSimpleProstheticLiver</defName>
 		<label>install prosthetic liver</label>
 		<description>Install a prosthetic liver.</description>
-		<descriptionHyperlinks><ThingDef>FSFSimpleProstheticLiver</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFSimpleProstheticLiver</ThingDef>
+			<HediffDef>FSFSimpleProstheticLiver</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic liver.</jobString>
 		<ingredients>
 			<li>
@@ -466,7 +488,10 @@
 		<defName>InstallFSFSimpleProstheticStomach</defName>
 		<label>install prosthetic stomach</label>
 		<description>Install a prosthetic stomach.</description>
-		<descriptionHyperlinks><ThingDef>FSFSimpleProstheticStomach</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FSFSimpleProstheticStomach</ThingDef>
+			<HediffDef>FSFSimpleProstheticStomach</HediffDef>
+		</descriptionHyperlinks>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing prosthetic stomach.</jobString>
 		<ingredients>

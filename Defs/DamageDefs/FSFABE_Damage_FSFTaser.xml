@@ -15,7 +15,7 @@
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<hasForcefulImpact>false</hasForcefulImpact>
 		<makesBlood>false</makesBlood>
-		<canInterruptJobs>false</canInterruptJobs>
+		<canInterruptJobs>true</canInterruptJobs>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been electrocuted to death.</deathMessage>
 		<armorCategory>Heat</armorCategory>
@@ -23,7 +23,7 @@
 		<defaultDamage>10</defaultDamage>
 		<defaultArmorPenetration>0</defaultArmorPenetration>
 		<explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
-		<explosionCellMote>Mote_BlastFlame</explosionCellMote>
+		<explosionCellFleck>BlastFlame</explosionCellFleck>
 		<explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
 		<explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
 		<soundExplosion>Explosion_Flame</soundExplosion>
