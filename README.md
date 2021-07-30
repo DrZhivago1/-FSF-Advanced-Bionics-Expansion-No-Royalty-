@@ -5,9 +5,9 @@ It has the Royalty dependency removed.
 
 Up to date with the version on Steam from:
 ```
-Update on 11/7/2020 9:38:56 AM.
+Update on 7/21/2021 5:55:58 AM.
 
-- Increased Prosthetic Foot efficiency from 80% to 95%.
+- Fixed Psylinks not having the archotech colour.
 ```
 
 Repository is made available with permission from FrozenSnowFox, author of the mod.
